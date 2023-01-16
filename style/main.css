@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 1940px;
+    height: 2934px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 144, 14, 0.1);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 80px;
+    color: black;
+}
+.nav-links{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+.nav-links li{
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header-style */
+header{
+    width: 1440px;
+    height: 677px;
+    left: 263px;
+    top: 612px;
+    background-image: url(../images/banner.png);
+    border-radius: 8px;
+
+    
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background:wheat ;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7min;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* ctn-style */
+.ctn{
+    height: 100px;
+    left: 870px;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #FF900E;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    animation: none;
+    
+   
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #FF900E;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    animation: alternate;
+    
+    
+}
+
+header .logo{
+    font-size: 3rem;
+    color:#333;
+    font-weight: bolder;
+}
+
+ header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#666;
+   
+}
+
+
+.content{
+    max-width: 50rem;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:#333;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.home .content span{
+    font-size: 3.5rem;
+  
+}
+
+.home .content p{
+    font-size: 1.5rem;
+
+}
+
+.img{
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
+    left: 263px;
+    top: 589px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.row .col{
+    width: 80%;
+}
+.tours .row .col{
+    width: 50%;
+    text-align: right;
+    bottom:100px;
+}
+.tours .images-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-gallery img{
+            width: 250px;
+            margin: 10px;
+}
+
+
+.image-gallery-ar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 10px;
+    text-align: left;
+}
+
+.row-one{
+    width:200%;
+    justify-content:space-between;
+
+}
+
+.row-one .col-two{
+    width: 700px;
+    margin:0%;
+    padding: auto;
+    text-align: left;
+
+}
+
+.skills-container{
+    gap:10px;
+
+
+}
+.skills-container-i{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.last-heading{
+    text-align: center;
+    font-size: large;
+}
+
+.skills-container-j{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+}
+.foot{
+    text-align: center;
+}
+
+
+/* Mobile Device */
+
+@media screen and (max-width:850px){
+      .navbar{
+        padding: 0;
+        
+      }
+      .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+      }
+      .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+      }
+
+      .image-gallery{
+        width: 200%;
+        justify-content: center;
+        
+      }
+}
+
